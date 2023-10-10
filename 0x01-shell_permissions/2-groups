@@ -1,2 +1,2 @@
 #!/bin/bash
-groups $USER | tr " " "\\n" | tail -n +3 | tr -d ":"
+groups $USER | tr " " "\\n" | head -1
